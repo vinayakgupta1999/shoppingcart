@@ -1,0 +1,77 @@
+.product{
+    margin-top : 200px;
+    margin-left : 70px;
+    margin-right : 70px;
+}
+
+.product-title{
+    font-size : 20px;
+    font-weight : bold;
+}
+
+.food-products{
+    margin-top : 10px;
+    display : flex;
+    /* justify-content : space-between; */
+    flex-wrap : wrap;
+    gap : 40px;
+}
+
+.food-items{
+    display : flex;
+    flex-direction : column;
+}
+
+.food-items .food-image{
+    height : 150px;
+    width : 150px;
+}
+
+.food-items .food-item-title{
+    font-size : 20px;
+    font-weight : bold;
+    padding-left : 40px;
+}
+
+.food-items .food-item-size button{
+    width : 100px;
+    border : none;
+    padding : 10px;
+    background-color : #e5e7eb;
+    font-size : 15px;
+    outline : none;
+    border-radius : 20px;
+    margin-top : 5px;
+}
+
+.food-items .food-price-details{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    width : 250px;
+    gap : 5px;
+    margin-top : 5px;
+}
+
+.food-items .food-price-details span{
+    font-size : 20px;
+    font-weight : bold;
+}
+
+.add-item-btn button{
+    width : 70px;
+    border : none;
+    padding : 10px;
+    background-color : #ee9e1e;
+    color : #000000;
+    font-size : 15px;
+    outline : none;
+    border-radius : 20px;
+    cursor : pointer;
+    font-weight : bold;
+}
+
+.add-item-btn button:hover{
+    background-color : #000000;
+    color : #ffffff;
+}

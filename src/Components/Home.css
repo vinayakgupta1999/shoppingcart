@@ -1,0 +1,52 @@
+.home{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    margin-left : 70px;
+    margin-right : 70px;
+    margin-top : 10px;
+    height : 600px;
+}
+
+.left-home{
+    display : flex;
+    flex-direction : column;
+    gap : 2px;
+    margin-top : 250px;
+}
+
+.left-home .left-home-title{
+    font-size : 20px;
+    font-style :italic;
+}
+
+.left-home span{
+    font-size : 50px;
+    font-weight : bold;
+}
+
+.left-home button{
+    width : 150px;
+    border : none;
+    background-color : #ee9e1e;
+    color : #ffffff;
+    padding : 10px;
+    font-size : 20px;
+    outline : none;
+    border-radius : 20px;
+    cursor : pointer;
+}
+
+.left-home button:hover{
+    background-color : #000000;
+    color : #ffffff;
+}
+
+.right-home{
+    display : flex;
+    margin-top : 200px;
+}
+
+.right-home .home-image{
+    height : 700px;
+}

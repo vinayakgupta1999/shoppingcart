@@ -1,0 +1,109 @@
+.cart{
+    margin-left : 70px;
+    margin-right : 70px;
+    margin-top : 50px;
+}
+
+.cart .cart-title{
+    font-size : 20px;
+    font-weight : bold;
+}
+
+.cart-data{
+    margin-top : 20px;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    gap : 10px;
+}
+
+.cart-data .cart-items{
+    display : flex;
+    align-items : center;
+}
+
+.cart-items .cart-item-image{
+    height : 200px;
+    width : 200px;
+}
+
+.cart-food-title{
+    font-size : 20px;
+    font-weight : bold;
+    padding-left : 10px;
+}
+
+.cart-food-counter{
+    display : flex;
+    align-items : center;
+    padding-left : 100px;
+    gap : 10px;
+}
+
+.cart-food-counter button{
+    width : 50px;
+    border : none;
+    padding : 10px;
+    background-color : #ee9e1e;
+    color : #000000;
+    font-size : 15px;
+    outline : none;
+    border-radius : 20px;
+    cursor : pointer;
+    font-weight : bold;
+}
+
+.cart-food-counter span{
+    font-size : 20px;
+    font-weight : bold;
+}
+
+.cart-food-price{
+    font-size : 20px;
+    font-weight : bold;
+    padding-left : 20px;
+}
+
+.cart-food-delete-btn button{
+    width : 100px;
+    border : none;
+    padding : 10px;
+    background-color : #e74242;
+    color : #000000;
+    font-size : 15px;
+    outline : none;
+    border-radius : 20px;
+    cursor : pointer;
+    font-weight : bold;
+    text-align : center;
+    margin-left : 50px;
+}
+
+.seprate-line{
+    margin-top : 20px;
+}
+
+.total-price{
+    display : flex;
+    flex-direction : column;
+    justify-content : flex-end;
+    align-items : flex-end;
+    gap : 5px;
+    margin-top : 10px;
+}
+
+.total-price span{
+    font-size : 20px;
+    font-weight : bold;
+}
+
+.total-price-btn button{
+    width : 150px;
+    border : none;
+    background-color : #ee9e1e;
+    padding : 10px;
+    font-size : 20px;
+    outline : none;
+    border-radius : 20px;
+    cursor : pointer;
+}
